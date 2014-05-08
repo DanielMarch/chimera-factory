@@ -1,0 +1,27 @@
+extends ../shared/template
+
+block content
+  nav
+    span.home
+      a(href='/') Home
+    span.home
+      a(href='/about') About
+    span.home
+      a(href='/chimeras') Chimeras
+
+  #chimeras
+    each chimera in chimeras
+      .chimera
+        .delete
+          form(action='/chimeras/#{chimera._id}/delete', method='POST')
+            button.kill
+        .name
+          a(href='/chimeras/#{chimera._id}')= chimera.name
+        .age age: #{chimera.age}
+        .gender gender: #{chimera.gender}
+        .head
+          img(src='/img/#{chimera.head}')
+        .body
+          img(src='/img/#{chimera.body}')
+        .bottom
+          img(src='/img/#{chimera.bottom}')

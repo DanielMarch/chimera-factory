@@ -1,0 +1,8 @@
+{"name": "Medusa", "age": 300, "gender": "female", "head": "medusahead.png", "body": "medusabody.png", "bottom": "medusabottom.png"}
+{"name": "Cyclops", "age": 120, "gender": "male", "head": "cyclopshead.png", "body": "cyclopsbody.png", "bottom": "cyclopsbottom.png"}
+{"name": "Minotaur", "age": 1000, "gender": "male", "head": "minotaurhead.png", "body": "minotaurbody.png", "bottom": "minotaurbottom.png"}
+{"name": "Satyr", "age": 250, "gender": "male", "head": "satyrhead.png", "body": "satyrbody.png", "bottom": "satyrbottom.png"}
+{"name": "Bob", "age": 43, "gender": "female", "head": "medusahead.png", "body": "satyrbody.png", "bottom": "cyclopsbottom.png"}
+{"name": "Mary", "age": 24, "gender": "female", "head": "minotaurhead.png", "body": "cyclopsbody.png", "bottom": "medusabottom.png"}
+{"name": "Dave", "age": 52, "gender": "male", "head": "cyclopshead.png", "body": "medusabody.png", "bottom": "minotaurbottom.png"}
+{"name": "Jane", "age": 19, "gender": "female", "head": "satyrhead.png", "body": "minotaurbody.png", "bottom": "satyrbottom.png"}

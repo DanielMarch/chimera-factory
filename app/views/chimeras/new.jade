@@ -1,0 +1,33 @@
+extends ../shared/template
+
+block content
+  nav
+    span.home
+      a(href='/') Home
+    span.home
+      a(href='/about') About
+    span.home
+      a(href='/chimeras') Chimeras
+  h1 Chimera Factory
+  form(method='POST', action='/chimeras')
+    input(name='name', type='text', placeholder='Name')
+    input(name='age', type='text', placeholder='Age')
+    select(name='gender')
+      option Male
+      option Female
+    select(name='head')
+      option Medusa
+      option Cyclops
+      option Minotaur
+      option Satyr
+    select(name='body')
+      option Medusa
+      option Cyclops
+      option Minotaur
+      option Satyr
+    select(name='bottom')
+      option Medusa
+      option Cyclops
+      option Minotaur
+      option Satyr
+    button.add Create
